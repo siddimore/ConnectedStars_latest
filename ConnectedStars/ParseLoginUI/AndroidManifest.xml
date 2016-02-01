@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.parse.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+    <application> <activity
+        android:name="jobQuery"
+        />
+        <activity
+            android:name="jobList"/>
+        />
+        <activity
+            android:name=".autoPost"/>
+
+        <activity
+            android:name=".jobDetail"/>
+        <activity
+            android:name=".userprofile"/>
+        <activity
+            android:name=".jobapply"/>
+
+
+    </application>
+
+
+
+</manifest>

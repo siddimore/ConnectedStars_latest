@@ -1,0 +1,11 @@
+rootProject.name = 'ParseAndroidUI'
+
+// Parse Login UI Library
+include ':ParseLoginUI', ':linkedin', ':commons-codec-1.3', ':signpost-core', ':samples:SwitchUserSample', ':samples:Scrumptious', ':facebook', ':samples:Iconicus', ':samples:RPSSample', ':samples:MessengerSendSample', ':samples:HelloFacebookSample'
+
+// Facebook SDK
+include 'facebook-sdk:facebook'
+
+// Sample Projects
+include ':ParseLoginSampleBasic'
+

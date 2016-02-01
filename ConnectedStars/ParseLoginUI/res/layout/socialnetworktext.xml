@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Social Networks "
+        android:id="@+id/UserBio"
+        android:textStyle="bold" />
+
+    <View android:layout_height="20dp"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:maxLines="4"
+        android:text="Connect with Linkedin, Facebook and Twitter and turn on smart autopost. Once you turn on autopost, Connected stars will automatically post jobs for you at intervals you choose "
+        android:id="@+id/userbioText" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/parse_login"
+    >
+
+    <EditText
+        android:id="@+id/job_query_keyword_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:hint="@string/com_parse_ui_job_input_hint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ParseLoginUI.EditText"
+        android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+        android:fontFamily="sans-serif"
+        android:hint="@string/com_parse_ui_job_location_hint"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/parse_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        >
+
+        <Button
+            android:id="@+id/job_query_search_button"
+            style="@style/ParseLoginUI.Button"
+            android:layout_weight="0.25"
+            android:text="@string/com_parse_ui_parse_jobSearch_button_label"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

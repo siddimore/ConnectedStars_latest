@@ -1,0 +1,42 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/facebook_login"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="left"
+        android:layout_weight="0.25"
+        android:background="@drawable/com_parse_ui_facebook_login_button_background_selector"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <Button
+        android:id="@+id/twitter_login"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="left"
+        android:layout_weight="0.25"
+        android:layout_toRightOf="@id/facebook_login"
+        android:background="@drawable/com_parse_ui_twitter_login_button_background_selector"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+    <!--<Button
+        android:id="@+id/linkedin_login_login"
+        style="@style/ParseLoginUI.Button.ThirdPartyLogin"
+        android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+        android:background="@drawable/com_parse_ui_twitter_login_button_background_selector"
+        android:drawableLeft="@drawable/linkedin"
+        android:text="@string/com_parse_ui_twitter_login_button_label"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />-->
+</merge>
